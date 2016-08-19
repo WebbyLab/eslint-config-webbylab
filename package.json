@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-webbylab",
+  "version": "1.0.0",
+  "description": "WebbyLab's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebbyLab/eslint-config-webbylab.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "WebbyLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebbyLab/eslint-config-webbylab/issues"
+  },
+  "homepage": "https://github.com/WebbyLab/eslint-config-webbylab#readme",
+  "peerDependecies": {
+        "eslint": "^3.3.1",
+        "eslint-plugin-fetch": "0.0.1",
+        "eslint-plugin-import": "^1.8.1",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^6.1.2",
+        "eslint-plugin-webbylab": "webbylab/eslint-plugin-webbylab"
+    }
+}
