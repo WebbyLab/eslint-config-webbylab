@@ -6,7 +6,7 @@ module.exports = {
         './rules/no-require-lodash',
         './rules/prefer-spread',
         './rules/react',
-        './rules/webbylab',
+        './rules/more',
         ].map(require.resolve),
     rules: {},
 };
