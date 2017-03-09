@@ -181,7 +181,9 @@ module.exports = {
         "linebreak-style": [2, "unix"],
         "max-len": [2, 120, 4, {
             "ignoreUrls": true,
-            "ignoreComments": false
+            "ignoreComments": false,
+            "ignoreTemplateLiterals": true,
+            "ignoreStrings": true
         }],
         "max-nested-callbacks": [2, 4],
         "new-parens": 2,
@@ -209,7 +211,11 @@ module.exports = {
         "spaced-comment": [2, "always", {
             "exceptions": ["-", "+"],
             "markers": ["=", "!"]
-        }]
+        }],
+
+        "no-return-await": 2,
+         "prefer-promise-reject-errors": ["error", {"allowEmptyReject": true}],
+         "no-compare-neg-zero": 2
     },
 
      "globals":{
