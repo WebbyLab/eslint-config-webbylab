@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webbylab",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "WebbyLab's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
