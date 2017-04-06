@@ -166,18 +166,17 @@ module.exports = {
         "func-style": [2, "declaration"],
         "indent": [2, 4, { "SwitchCase": 1 }],
         "jsx-quotes": [2, "prefer-single"],
-
-        //  "key-spacing": [2, {
-        //      "singleLine": {
-        //          "beforeColon": false,
-        //          "afterColon": true
-        //      },
-        //      "multiLine": {
-        //          "beforeColon": true,
-        //          "afterColon": true,
-        //          "align": "colon"
-        //      }
-        //  }],
+        "key-spacing": [2, {
+            "singleLine": {
+                "beforeColon": false,
+                "afterColon": true
+            },
+            "multiLine": {
+                "beforeColon": true,
+                "afterColon": true,
+                "align": "colon"
+            }
+        }],
         "linebreak-style": [2, "unix"],
         "max-len": [2, 120, 4, {
             "ignoreUrls": true,
