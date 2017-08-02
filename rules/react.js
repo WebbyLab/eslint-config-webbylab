@@ -6,7 +6,7 @@ module.exports = {
     "rules":{
         "react/jsx-boolean-value": 2,
         "react/jsx-closing-bracket-location": 2,
-        "react/jsx-curly-spacing":  [2, "never"],
+        "react/jsx-curly-spacing": [2, "never"], //  couses warning "can't resolve reference #/definitions/basicConfig from id #"
         "react/jsx-handler-names": 2,
         "react/jsx-indent-props": [2, 4],
         "react/jsx-indent": [2, 4],
@@ -22,7 +22,6 @@ module.exports = {
         "react/jsx-pascal-case": 2,
         "react/jsx-uses-react": 2,
         "react/jsx-uses-vars": 2,
-        "react/jsx-space-before-closing": [2, "always"],
         "react/jsx-wrap-multilines":  [2, {declaration: true, assignment: true, return: true}],
 
         // "react/forbid-component-props": [2, { "forbid": ["className", "style"] }], // Bug in plugin. Cannot run with this rule
@@ -62,6 +61,16 @@ module.exports = {
         "react/require-default-props": 2,
         "react/no-array-index-key": 2,
         "react/forbid-foreign-prop-types": 2,
-        "react/void-dom-elements-no-children": 2
+        "react/void-dom-elements-no-children": 2,
+        "react/no-unescaped-entities": 2,
+        "react/jsx-no-target-blank": 2,
+        "react/jsx-no-comment-textnodes": 2,
+        "react/jsx-key": 2,
+        "react/no-string-refs": 2,
+        "react/no-danger-with-children": 2,
+        "react/no-will-update-set-state": 2,
+        "react/default-props-match-prop-types": 2,
+        "react/no-redundant-should-component-update": 2,
+        "react/jsx-closing-tag-location": 2
     }
 };

@@ -8,24 +8,26 @@ module.exports = {
         "es6": true
     },
 
-    "ecmaFeatures": {
-        "arrowFunctions": true,
-        "blockBindings": true,
-        "classes": true,
-        "defaultParams": true,
-        "destructuring": true,
-        "forOf": true,
-        "generators": false,
-        "modules": true,
-        "objectLiteralComputedProperties": true,
-        "objectLiteralDuplicateProperties": false,
-        "objectLiteralShorthandMethods": true,
-        "objectLiteralShorthandProperties": true,
-        "restParams": true,
-        "spread": true,
-        "superInFunctions": true,
-        "templateStrings": true,
-        "jsx": true
+    "parserOptions": {
+       "ecmaFeatures": {
+          "arrowFunctions": true,
+          "blockBindings": true,
+          "classes": true,
+          "defaultParams": true,
+          "destructuring": true,
+          "forOf": true,
+          "generators": false,
+          "modules": true,
+          "objectLiteralComputedProperties": true,
+          "objectLiteralDuplicateProperties": false,
+          "objectLiteralShorthandMethods": true,
+          "objectLiteralShorthandProperties": true,
+          "restParams": true,
+          "spread": true,
+          "superInFunctions": true,
+          "templateStrings": true,
+          "jsx": true
+       },
     },
 
     "rules":{
@@ -150,7 +152,7 @@ module.exports = {
         "no-new-require": 2,
 
         // Stylistic
-        "array-bracket-spacing": [2, "never", {
+        "array-bracket-spacing": [2, "always", {
             "singleValue": true,
             "objectsInArrays": true,
             "arraysInArrays": true
@@ -213,8 +215,20 @@ module.exports = {
         }],
 
         "no-return-await": 2,
-         "prefer-promise-reject-errors": ["error", {"allowEmptyReject": true}],
-         "no-compare-neg-zero": 2
+        "prefer-promise-reject-errors": ["error", {"allowEmptyReject": true}],
+        "no-compare-neg-zero": 2,
+        "no-buffer-constructor": 2,
+        "array-bracket-newline": 0,
+        "switch-colon-spacing": 2,
+        "for-direction": 2,
+        // "padding-line-between-statements": // TODO
+        "semi-style": [2, "last"],
+        "array-element-newline": 0,
+        "getter-return": 2,
+        // "padding-line-between-statements": [
+        //   "error",
+        //   { "blankLine": "always", "prev": "var", "next": "return" }
+        // ]
     },
 
      "globals":{
