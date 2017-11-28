@@ -13,7 +13,7 @@ module.exports = {
         "more/force-native-methods": 2,
         "more/no-duplicated-chains": 2,
         "more/classbody-starts-with-newline": [2, 'never'],
-        "more/no-filter-instead-of-find": 2
-
+        "more/no-filter-instead-of-find": 2,
+	    "more/no-constructor-in-react-component": 2
     }
 };
