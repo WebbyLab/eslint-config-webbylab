@@ -14,6 +14,6 @@ module.exports = {
         "more/no-duplicated-chains": 2,
         "more/classbody-starts-with-newline": [2, 'never'],
         "more/no-filter-instead-of-find": 2,
-	"more/no-constructor-in-component": 2
+	    "more/no-constructor-in-react-component": 2
     }
 };
