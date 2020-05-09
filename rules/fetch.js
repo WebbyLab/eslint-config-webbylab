@@ -4,7 +4,7 @@ module.exports = {
     ],
 
     "rules":{
-        "fetch/no-jquery": 2,
-        "fetch/no-xhr": 2
+        "fetch/no-jquery": "error",
+        "fetch/no-xhr": "error"
     }
 };

@@ -1,9 +1,9 @@
 module.exports = {
-    "plugins": [
-        "no-require-lodash"
+    'plugins': [
+        'no-require-lodash'
     ],
 
-    "rules":{
-        "no-require-lodash/no-require-lodash": 2
+    'rules':{
+        'no-require-lodash/no-require-lodash': 'error'
     }
 };

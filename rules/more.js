@@ -1,19 +1,19 @@
 module.exports = {
-    "plugins": [
-        "more"
+    'plugins': [
+        'more'
     ],
 
-    "rules": {
-        "more/no-void-map": 2,
-        "more/no-c-like-loops": 2,
-        "more/prefer-includes": 2,
-        "more/no-then": 2,
-        "more/no-window": 2,
-        "more/no-numeric-endings-for-variables": 2,
-        "more/force-native-methods": 2,
-        "more/no-duplicated-chains": 2,
-        "more/classbody-starts-with-newline": [2, 'never'],
-        "more/no-filter-instead-of-find": 2
+    'rules': {
+        'more/no-void-map': 'error',
+        'more/no-c-like-loops': 'error',
+        'more/prefer-includes': 'error',
+        'more/no-then': 'error',
+        'more/no-window': 'error',
+        'more/no-numeric-endings-for-variables': 'error',
+        'more/force-native-methods': 'error',
+        'more/no-duplicated-chains': 'error',
+        'more/classbody-starts-with-newline': ['error', 'never'],
+        'more/no-filter-instead-of-find': 'error'
 
     }
 };

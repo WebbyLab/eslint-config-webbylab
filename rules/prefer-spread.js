@@ -1,9 +1,9 @@
 module.exports = {
-    "plugins": [
-        "prefer-spread"
+    'plugins': [
+        'prefer-spread'
     ],
 
-    "rules":{
-        "prefer-spread/prefer-object-spread": [2, "includeNearEquivalents"]
+    'rules':{
+        'prefer-spread/prefer-object-spread': ['error', 'includeNearEquivalents']
     }
 };
