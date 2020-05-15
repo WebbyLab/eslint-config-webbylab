@@ -56,6 +56,7 @@ module.exports = {
         'no-constructor-return': 'error',
         'no-useless-backreference': 'error',
         'default-case-last': 'error',
+        'no-magic-numbers': ['error', { 'ignore': [0, 1, 1024], 'ignoreArrayIndexes': true, 'enforceConst': true }],
 
         // Possible errors
         'comma-dangle': ['error', 'never'],
@@ -239,14 +240,13 @@ module.exports = {
         'no-buffer-constructor': 'error',
         'switch-colon-spacing': 'error',
         'for-direction': 'error',
-        // 'padding-line-between-statements': // TODO
         'semi-style': ['error', 'last'],
         'array-element-newline': 0,
         'getter-return': 'error',
-        // 'padding-line-between-statements': [
-        //   'error',
-        //   { 'blankLine': 'always', 'prev': 'var', 'next': 'return' }
-        // ]
+        'padding-line-between-statements': [
+          'error',
+          { 'blankLine': 'always', 'prev': 'block-like', 'next': '*' }
+        ]
     },
 
      'globals':{
