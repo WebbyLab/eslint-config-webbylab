@@ -56,7 +56,7 @@ module.exports = {
         'no-constructor-return': 'error',
         'no-useless-backreference': 'error',
         'default-case-last': 'error',
-        'no-magic-numbers': ['error', { 'ignore': [0, 1, 1024], 'ignoreArrayIndexes': true, 'enforceConst': true }],
+        'no-magic-numbers': ['error', { 'ignore': [-1, 0, 1, 1024, 60, 24], 'ignoreArrayIndexes': true, 'enforceConst': true }],
 
         // Possible errors
         'comma-dangle': ['error', 'never'],
@@ -84,7 +84,7 @@ module.exports = {
         'use-isnan': 'error',
         'valid-typeof': 'error',
         'no-unexpected-multiline': 0,
-        'max-lines-per-function': ['error', {'max': 50, 'skipBlankLines': true, 'skipComments': true}],
+        'max-lines-per-function': ['error', {'max': 100, 'skipBlankLines': true, 'skipComments': true}],
         'require-atomic-updates': 'error',
         'no-async-promise-executor': 'error',
         'no-misleading-character-class': 'error',
