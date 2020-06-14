@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webbylab",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "description": "WebbyLab's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "eslint": "^7.0.0",
     "eslint-plugin-fetch": "0.0.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-more": "^0.3.0",
+    "eslint-plugin-more": "^1.0.0",
     "eslint-plugin-no-require-lodash": "^1.1.0",
     "eslint-plugin-prefer-spread": "^1.0.3",
     "eslint-plugin-react": "^7.1.0",
