@@ -13,7 +13,7 @@ module.exports = {
         'more/force-native-methods': 'error',
         'more/no-duplicated-chains': 'error',
         'more/classbody-starts-with-newline': ['error', 'never'],
-        'more/no-filter-instead-of-find': 'error'
+        'more/no-filter-instead-of-find': 'error',
         'more/no-hardcoded-password': 'error',
         'more/no-hardcoded-configuration-data': 'error'
     }
