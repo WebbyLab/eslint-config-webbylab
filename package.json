@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webbylab",
-  "version": "5.4.1",
+  "version": "6.0.0",
   "description": "WebbyLab's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -21,13 +21,14 @@
   },
   "homepage": "https://github.com/WebbyLab/eslint-config-webbylab#readme",
   "peerDependecies": {
-    "eslint": "^7.0.0",
+    "eslint": "^8.0.0",
     "eslint-plugin-fetch": "0.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-more": "^1.0.0",
     "eslint-plugin-no-require-lodash": "^1.1.0",
     "eslint-plugin-prefer-spread": "^1.0.3",
     "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-security": "^1.4.0"
+    "eslint-plugin-security": "^1.4.0",
+    "@babel/eslint-parser" : "^7.0.0"
   }
 }
