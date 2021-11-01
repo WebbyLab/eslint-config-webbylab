@@ -2,7 +2,6 @@ module.exports = {
     'parser': '@babel/eslint-parser',
     'parserOptions': {
         'sourceType': 'module',
-        'requireConfigFile': false,
     },
     'env': {
         'browser': true,
@@ -12,6 +11,10 @@ module.exports = {
     },
 
     'parserOptions': {
+       'requireConfigFile': false,
+       'babelOptions' : {
+            'presets': ["@babel/preset-react"],
+       },
        'ecmaFeatures': {
           'arrowFunctions': true,
           'blockBindings': true,
