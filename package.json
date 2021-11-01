@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/WebbyLab/eslint-config-webbylab#readme",
   "peerDependecies": {
-    "eslint": "^8.0.0",
+    "eslint": "^7.0.0",
     "eslint-plugin-fetch": "0.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-more": "^1.0.0",
